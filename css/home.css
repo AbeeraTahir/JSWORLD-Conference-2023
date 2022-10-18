@@ -14,6 +14,10 @@ body {
   color: #ec5242;
 }
 
+.text-center {
+  text-align: center;
+}
+
 header {
   width: 100%;
   background-image: url(../images/background-images/bg-01.jpg);
@@ -56,8 +60,11 @@ header {
 
 .headline-content h1 {
   font-weight: 900;
-  font-size: 2.2rem;
+  font-size: 2rem;
   text-transform: uppercase;
+}
+
+.title {
   background-image: url(../images/background-images/text-bg.jpg);
   background-clip: inherit;
   -webkit-background-clip: text;
@@ -71,6 +78,9 @@ header {
 }
 
 .description-container p {
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.6rem;
   color: #272a31;
 }
 

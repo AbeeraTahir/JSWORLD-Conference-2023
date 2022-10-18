@@ -1,0 +1,90 @@
+.half-01 {
+  background-image: url(../images/background-images/bg-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.half-02 {
+  background: #fff;
+}
+
+header {
+  background: none;
+}
+
+.headline-section {
+  background: none;
+}
+
+.headline-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.description-container {
+  border: 1px solid #d3d3d3;
+  padding: 16px 8px;
+  background-color: #fff;
+}
+
+.description-container p {
+  color: #272a31;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.contact p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.4rem;
+}
+
+.contact a {
+  font-weight: bold;
+  color: #272a31;
+}
+
+.logo-competition {
+  padding: 35px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.conference-logo {
+  margin-top: 25px;
+  width: 100%;
+  border: 1px solid #d3d3d3;
+}
+
+.conference-logo img {
+  display: block;
+  width: 50%;
+  margin: 25px auto;
+}
+
+.past-events {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 40px 30px;
+  color: #272a31;
+}
+
+.past-events-img {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 40px;
+}
