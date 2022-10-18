@@ -18,12 +18,24 @@ body {
   text-align: center;
 }
 
-header {
-  width: 100%;
+.half-01 {
   background-image: url(../images/background-images/bg-01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0 0;
+  background-position: center;
+}
+
+.half-02 {
+  background: #fff;
+}
+
+header {
+  width: 100%;
+}
+
+.top-nav,
+.main-nav {
+  display: none;
 }
 
 .nav-bar {
@@ -39,11 +51,7 @@ header {
 }
 
 .headline-section {
-  background-image: url(../images/background-images/bg-01.jpg);
-  background-repeat: repeat-y;
-  background-size: cover;
-  background-position: 0 -120px;
-  height: 100%;
+  width: 100%;
 }
 
 .headline-content {
@@ -161,11 +169,15 @@ p.venu {
   line-height: 1.6rem;
 }
 
-.program-bottom {
+.join-summit {
   padding: 25px 40px;
   color: #fff;
   background-color: #ec5242;
   font-size: 1.2rem;
+}
+
+.see-program {
+  display: none;
 }
 
 .featured-speakers {
@@ -252,7 +264,6 @@ p.venu {
 .partners h2 {
   font-size: 1.6rem;
   font-weight: 600;
-  text-align: center;
 }
 
 .partner-logos {
@@ -284,4 +295,308 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .half-01 {
+    background: none;
+  }
+
+  .half-02 {
+    background: none;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .top-nav {
+    display: block;
+    width: 100%;
+    background: #272a31;
+    padding: 10px 150px;
+  }
+
+  .top-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+  }
+
+  .top-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .main-nav {
+    padding: 15px 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 8px 10px #d3d3d3;
+    box-sizing: border-box;
+  }
+
+  .main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.8rem;
+  }
+
+  .main-nav ul li {
+    padding: 15px 20px;
+  }
+
+  .main-nav ul li a {
+    text-decoration: none;
+    color: #272a31;
+    font-size: 1.1rem;
+    font-weight: 400;
+    opacity: 0.9;
+  }
+
+  .main-nav ul li a:hover {
+    color: #ec5242;
+  }
+
+  .nav-btn {
+    border: 3px solid #ec5242;
+  }
+
+  .headline-section {
+    background-image: url(../images/background-images/bg-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .headline-content {
+    width: 80%;
+    padding: 7rem 9rem;
+    gap: 15px;
+  }
+
+  .headline-content p {
+    font-size: 2.4rem;
+  }
+
+  .headline-content h1 {
+    font-weight: 900;
+    font-size: 4.8rem;
+    text-transform: uppercase;
+  }
+
+  .description-container {
+    border: 4px solid #fff;
+    padding: 16px 20px;
+    background-color: rgba(247, 247, 248, 0.9);
+    width: 80%;
+  }
+
+  .description-container p {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.6rem;
+    color: #272a31;
+    opacity: 0.9;
+  }
+  
+  p.date {
+    font-weight: 900;
+    font-size: 2.8rem;
+    color: #272a31;
+    opacity: 0.8;
+    margin-top: 20px;
+  }
+  
+  p.venu {
+    font-size: 1.6rem;
+    font-weight: 400;
+    opacity: 0.5;
+  }
+
+  .main-program {
+    padding: 100px 200px;
+    gap: 50px;
+  }
+  
+  .program-header {
+    width: 100%;
+  }
+  
+  .program-header h2 {
+    color: #d3d3d3;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+  
+  .underline {
+    height: 1px;
+    width: 8%;
+    margin: 1rem auto;
+    background-color: #ec5242;
+  }
+  
+  .program-contents {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  .program-card {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(211, 211, 211, 0.1);
+    gap: 10px;
+    text-align: center;
+  }
+  
+  .program-card img {
+    width: 65px;
+    height: 58px;
+    flex: 0;
+  }
+  
+  .program-card h3 {
+    font-size: 1.2rem;
+    font-weight: 800;
+    width: 100%;
+    flex: 1;
+  }
+  
+  .program-card p {
+    font-size: 1rem;
+    flex: 2;
+    color: #d3d3d3;
+    line-height: 1.3rem;
+  }
+  
+  .join-summit {
+    display: none;
+  }
+
+  .see-program {
+    display: block;
+    position: relative;
+    top: 16px;
+  }
+
+  .see-program a {
+    color: #d3d3d3;
+    font-size: 1.2rem;
+  }
+
+  .featured-speakers {
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+  }
+  
+  .speaker-header {
+    width: 60%;
+  }
+  
+  .speaker-header h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .speakers {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    column-gap: 20px;
+    row-gap: 50px;
+  }
+  
+  .speakers-data {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 0;
+  }
+  
+  .speaker-img {
+    width: 30%;
+  }
+  
+  .speaker-img img {
+    width: 100%;
+  }
+  
+  .speaker-details {
+    width: 65%;
+    gap: 18px;
+  }
+
+  .name {
+    font-size: 1.3rem;
+    font-weight: 900;
+  }
+  
+  .status {
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .work {
+    font-size: 0.85rem;
+    line-height: 1.1rem;
+  }
+  
+  .partners {
+    background-color: #272a31;
+    color: #d3d3d3;
+    padding: 50px 10px;
+  }
+  
+  .partners h2 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .partner-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 40px;
+    margin-top: 30px;
+  }
+  
+  .logos-center {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  
+  .logos-center img {
+    width: 8rem;
+  }
+  
+  footer {
+    padding: 50px 30px;
+  }
+  
+  .footer-contents {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
