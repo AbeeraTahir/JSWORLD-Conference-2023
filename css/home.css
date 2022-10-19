@@ -425,7 +425,7 @@ footer {
   }
 
   .headline-content {
-    width: 1200px;
+    width: 90%;
     padding: 7rem 9rem;
     gap: 15px;
   }
@@ -438,6 +438,7 @@ footer {
     font-weight: 900;
     font-size: 4.8rem;
     text-transform: uppercase;
+    width: 100%;
   }
 
   .description-container {
@@ -470,7 +471,7 @@ footer {
   }
 
   .main-program {
-    padding: 100px 200px;
+    padding: 100px 0;
     gap: 50px;
   }
 
@@ -493,12 +494,15 @@ footer {
   }
 
   .program-contents {
+    width: 70%;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     gap: 10px;
   }
 
   .program-card {
+    width: 100%;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -510,8 +514,8 @@ footer {
   }
 
   .program-card img {
-    width: 65px;
-    height: 58px;
+    width: 35%;
+    height: 33%;
     flex: 0;
   }
 
