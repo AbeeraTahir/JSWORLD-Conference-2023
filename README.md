@@ -9,7 +9,7 @@ This repository contains the capstone project built by the design guidlines prov
 - JavaScript
 
 ## Live Demo
-> [Click here for live preview](https://abeeratahir.github.io/Portfolio/)
+> [Click here for live preview](https://abeeratahir.github.io/Capstone-Project/)
 
 ## Getting Started
 
