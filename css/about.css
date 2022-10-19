@@ -21,17 +21,24 @@
   flex-direction: column;
   gap: 10px;
   margin-top: 10px;
+  color: #272a31;
 }
 
 .contact p {
   font-size: 0.9rem;
   font-weight: 500;
   line-height: 1.4rem;
+  color: #272a31;
 }
 
 .contact a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
   font-weight: bold;
   color: #272a31;
+  text-decoration: none;
 }
 
 .logo-competition {
@@ -43,7 +50,6 @@
 }
 
 .conference-logo {
-  margin-top: 25px;
   width: 100%;
   border: 1px solid #d3d3d3;
 }
@@ -51,7 +57,7 @@
 .conference-logo img {
   display: block;
   width: 50%;
-  margin: 25px auto;
+  margin: 15px auto;
 }
 
 .past-events {
@@ -66,7 +72,22 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
-  margin-top: 40px;
+}
+
+.past-events-img div {
+  width: 100%;
+  background: #ec5242;
+}
+
+.past-events-img div img {
+  width: 100%;
+  opacity: 0.5;
+}
+
+.past-events-img div h3,
+p {
+  margin: 10px 0;
+  color: #fff;
 }
 
 @media screen and (min-width: 768px) {
@@ -97,6 +118,16 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
+  }
+
+  .past-events-img div {
+    width: 32%;
+    background: #ec5242;
+  }
+
+  .past-events-img div img {
+    width: 100%;
+    opacity: 0.5;
   }
 }
