@@ -28,7 +28,6 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  overflow-x: hidden;
   background-color: #272a31;
   padding: 30px;
 }
