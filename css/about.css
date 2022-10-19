@@ -42,16 +42,23 @@
 }
 
 .logo-competition {
-  padding: 35px 20px;
+  padding: 50px 20px;
   display: flex;
   flex-direction: column;
   gap: 5px;
   border-bottom: 1px solid #d3d3d3;
 }
 
+.logo-competition p {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+  color: #272a31;
+}
+
 .conference-logo {
   width: 100%;
   border: 1px solid #d3d3d3;
+  margin-top: 40px;
 }
 
 .conference-logo img {
@@ -68,10 +75,16 @@
   color: #272a31;
 }
 
+.past-events p {
+  color: #272a31;
+}
+
 .past-events-img {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  margin-top: -40px;
+  margin-bottom: 40px;
 }
 
 .past-events-img div {
@@ -85,7 +98,7 @@
 }
 
 .past-events-img div h3,
-p {
+.past-events-img div p {
   margin: 10px 0;
   color: #fff;
 }
@@ -101,9 +114,17 @@ p {
     font-size: 3.5rem;
   }
 
+  .logo-competition p {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    color: #272a31;
+  }
+
   .conference-logo {
     margin: 25px auto 0 auto;
     width: 30%;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   .past-events {
@@ -113,12 +134,13 @@ p {
     padding: 80px 30px;
     color: #272a31;
   }
-  
+
   .past-events-img {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 30px;
+    margin-top: 40px;
   }
 
   .past-events-img div {

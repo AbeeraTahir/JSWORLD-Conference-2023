@@ -359,6 +359,11 @@ footer {
     background: none;
   }
 
+  .see-program a {
+    color: #d3d3d3;
+    font-size: 1.2rem;
+  }
+
   .nav-bar {
     display: none;
   }
@@ -412,7 +417,8 @@ footer {
   }
 
   .headline-section {
-    background-image: url(../images/background-images/bg-01.png);
+    width: 100%;
+    background-image: url(../images/background-images/bg-desktop.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -448,7 +454,7 @@ footer {
     color: #272a31;
     opacity: 0.9;
   }
-  
+
   p.date {
     font-weight: 900;
     font-size: 2.8rem;
@@ -456,7 +462,7 @@ footer {
     opacity: 0.8;
     margin-top: 20px;
   }
-  
+
   p.venu {
     font-size: 1.6rem;
     font-weight: 400;
@@ -467,31 +473,31 @@ footer {
     padding: 100px 200px;
     gap: 50px;
   }
-  
+
   .program-header {
     width: 100%;
   }
-  
+
   .program-header h2 {
     color: #d3d3d3;
     text-align: center;
     font-size: 2.2rem;
     font-weight: 600;
   }
-  
+
   .underline {
     height: 1px;
     width: 8%;
     margin: 1rem auto;
     background-color: #ec5242;
   }
-  
+
   .program-contents {
     display: flex;
     flex-direction: row;
     gap: 10px;
   }
-  
+
   .program-card {
     padding: 20px;
     display: flex;
@@ -502,27 +508,27 @@ footer {
     gap: 10px;
     text-align: center;
   }
-  
+
   .program-card img {
     width: 65px;
     height: 58px;
     flex: 0;
   }
-  
+
   .program-card h3 {
     font-size: 1.2rem;
     font-weight: 800;
     width: 100%;
     flex: 1;
   }
-  
+
   .program-card p {
     font-size: 1rem;
     flex: 2;
     color: #d3d3d3;
     line-height: 1.3rem;
   }
-  
+
   .join-summit {
     display: none;
   }
@@ -531,11 +537,6 @@ footer {
     display: block;
     position: relative;
     top: 16px;
-  }
-
-  .see-program a {
-    color: #d3d3d3;
-    font-size: 1.2rem;
   }
 
   .featured-speakers {
@@ -547,17 +548,17 @@ footer {
     gap: 30px;
     width: 100%;
   }
-  
+
   .speaker-header {
     width: 60%;
   }
-  
+
   .speaker-header h2 {
     font-size: 2.2rem;
     font-weight: 600;
     text-align: center;
   }
-  
+
   .speakers {
     width: 80%;
     display: grid;
@@ -565,7 +566,7 @@ footer {
     column-gap: 20px;
     row-gap: 50px;
   }
-  
+
   .speakers-data {
     width: 100%;
     display: flex;
@@ -574,15 +575,15 @@ footer {
     gap: 15px;
     padding: 0;
   }
-  
+
   .speaker-img {
     width: 30%;
   }
-  
+
   .speaker-img img {
     width: 100%;
   }
-  
+
   .speaker-details {
     width: 65%;
     gap: 18px;
@@ -592,29 +593,29 @@ footer {
     font-size: 1.3rem;
     font-weight: 900;
   }
-  
+
   .status {
     font-size: 0.9rem;
     font-weight: 600;
     font-style: italic;
   }
-  
+
   .work {
     font-size: 0.85rem;
     line-height: 1.1rem;
   }
-  
+
   .partners {
     background-color: #272a31;
     color: #d3d3d3;
     padding: 50px 10px;
   }
-  
+
   .partners h2 {
     font-size: 2rem;
     font-weight: 600;
   }
-  
+
   .partner-logos {
     display: flex;
     flex-direction: row;
@@ -624,21 +625,21 @@ footer {
     gap: 40px;
     margin-top: 30px;
   }
-  
+
   .logos-center {
     display: flex;
     flex-direction: row;
     gap: 40px;
   }
-  
+
   .logos-center img {
     width: 8rem;
   }
-  
+
   footer {
     padding: 50px 30px;
   }
-  
+
   .footer-contents {
     width: 100%;
     display: flex;
