@@ -40,7 +40,7 @@ body {
 }
 
 .menu-item {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #d3d3d3;
   padding: 10px;
 }
 
@@ -71,6 +71,17 @@ header {
   width: 100%;
 }
 
+.logo {
+  width: 170px;
+  height: 80px;
+  padding-top: 5px;
+}
+
+.logo img {
+  width: 90%;
+  height: 90%;
+}
+
 .top-nav,
 .main-nav {
   display: none;
@@ -78,7 +89,7 @@ header {
 
 .nav-bar {
   width: 100%;
-  padding: 30px 20px 45px 35px;
+  padding: 30px 20px 45px 30px;
   display: flex;
   align-items: center;
 }
@@ -93,7 +104,7 @@ header {
 }
 
 .headline-content {
-  padding: 20px 20px 60px 20px;
+  padding: 20px 20px 80px 20px;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -132,12 +143,12 @@ header {
 
 p.date {
   font-weight: 900;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   color: #272a31;
 }
 
 p.venu {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
 
 .main-program {
@@ -335,6 +346,10 @@ footer {
   gap: 50px;
 }
 
+.footer-contents .logo img {
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .half-01 {
     background: none;
@@ -369,17 +384,6 @@ footer {
     font-weight: bold;
   }
 
-  .logo {
-    width: 170px;
-    height: 80px;
-    padding-top: 5px;
-  }
-
-  .logo img {
-    width: 90%;
-    height: 90%;
-  }
-
   .main-nav {
     padding: 0 150px;
     display: flex;
@@ -408,7 +412,7 @@ footer {
   }
 
   .headline-section {
-    background-image: url(../images/background-images/bg-desktop.png);
+    background-image: url(../images/background-images/bg-01.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
