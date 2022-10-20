@@ -1,0 +1,194 @@
+.headline-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.description-container {
+  border: 1px solid #d3d3d3;
+  padding: 16px 8px;
+  background-color: #fff;
+}
+
+.description-container p {
+  color: #272a31;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+  color: #272a31;
+}
+
+.contact p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.4rem;
+  color: #272a31;
+}
+
+.contact a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: bold;
+  color: #272a31;
+  text-decoration: none;
+}
+
+.logo-competition {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.logo-competition p {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+  color: #272a31;
+}
+
+.conference-logo {
+  width: 100%;
+  border: 1px solid #d3d3d3;
+  margin-top: 40px;
+}
+
+.conference-logo img {
+  display: block;
+  width: 50%;
+  margin: 15px auto;
+}
+
+.past-events {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 40px 30px;
+  color: #272a31;
+}
+
+.past-events p {
+  color: #272a31;
+}
+
+.past-events-img {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.past-event-card-1 {
+  background-image: url(../images/past-event-images/Js-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  opacity: 0.7;
+  width: 100%;
+  height: 200px;
+}
+
+.past-event-card-2 {
+  background-image: url(../images/past-event-images/Js-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  opacity: 0.7;
+  width: 100%;
+  height: 200px;
+}
+
+.text-style h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.text-style p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .headline-content {
+    width: 100%;
+    gap: 30px;
+  }
+
+  .headline-content h1 {
+    font-weight: 900;
+    font-size: 3.5rem;
+  }
+
+  .logo-competition p {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    color: #272a31;
+  }
+
+  .conference-logo {
+    margin: 25px auto 0 auto;
+    width: 30%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .past-events {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 80px 0;
+    color: #272a31;
+  }
+
+  .past-events-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    width: 70%;
+    margin: 40px auto;
+  }
+
+  .past-event-card-1 {
+    height: 300px;
+    gap: 15px;
+  }
+
+  .past-event-card-2 {
+    height: 300px;
+    gap: 15px;
+  }
+
+  .text-style h3 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .text-style p {
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: #fff;
+  }
+}
