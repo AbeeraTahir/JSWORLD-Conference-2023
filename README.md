@@ -1,6 +1,6 @@
-# Capstone-Project
+# JSWORLD Conference 2023
 
-This repository contains the capstone project built by the design guidlines provided by Microverse. I have personalized its contents by creating a website for JavaScript Conference.
+This repository contains the capstone project created by following the design guidlines provided by Microverse. I have personalized its contents by creating a website for JavaScript Conference, named "JSWORLD Conference", which contains all the details about the main program, featured speakers, partners, and the past conferences. It is built with HTML, CSS, and JavaScript.
 
 ## Built With
 
