@@ -4,11 +4,11 @@ const crossIcon = document.querySelector('.cross-icon');
 const menuItem = document.querySelectorAll('.menu-item');
 
 hamburger.addEventListener('click', () => {
-  mobileNav.classList.toggle('hide');
+  mobileNav.classList.toggle('nav-show');
 });
 
 crossIcon.addEventListener('click', () => {
-  mobileNav.classList.toggle('hide');
+  mobileNav.classList.toggle('nav-show');
 });
 
 menuItem.forEach((item) => {

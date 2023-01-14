@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
+:root {
+  --main-color: #ec5242;
+  --dark-color: #272a31;
+  --primary-white: #fff;
+  --secondary-white: #d3d3d3;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,8 +17,28 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-.main-color {
-  color: #ec5242;
+.main-text-color {
+  color: var(--main-color);
+}
+
+.dark-text-color {
+  color: var(--dark-color);
+}
+
+.white-text-color {
+  color: var(--primary-white);
+}
+
+.text-secondary-white {
+  color: var(--secondary-white);
+}
+
+.main-bg-color {
+  background-color: var(--main-color);
+}
+
+.dark-bg-color {
+  background-color: var(--dark-color);
 }
 
 .text-center {
@@ -27,9 +54,13 @@ body {
   height: 100%;
   position: fixed;
   top: 0;
-  left: 0;
-  background-color: #272a31;
+  left: -100%;
   padding: 30px;
+  transition: all 0.8s ease;
+}
+
+.mobile-nav.nav-show {
+  left: 0;
 }
 
 .mobile-nav ul {
@@ -40,13 +71,13 @@ body {
 }
 
 .menu-item {
-  border-bottom: 1px solid #d3d3d3;
+  border-bottom: 1px solid var(--secondary-white);
   padding: 10px;
 }
 
 .menu-item a {
   text-decoration: none;
-  color: #fff;
+  color: var(--primary-white);
   font-size: 1.2rem;
 }
 
@@ -64,7 +95,7 @@ body {
 }
 
 .half-02 {
-  background: #fff;
+  background: var(--primary-white);
 }
 
 header {
@@ -129,7 +160,7 @@ header {
 }
 
 .description-container {
-  border: 4px solid #fff;
+  border: 4px solid var(--primary-white);
   padding: 16px 8px;
   background-color: rgba(247, 247, 248, 0.9);
 }
@@ -138,13 +169,11 @@ header {
   font-size: 0.9rem;
   font-weight: 600;
   line-height: 1.6rem;
-  color: #272a31;
 }
 
 p.date {
   font-weight: 900;
   font-size: 1.5rem;
-  color: #272a31;
 }
 
 p.venu {
@@ -156,7 +185,6 @@ p.venu {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #272a31;
   padding: 40px 20px;
   gap: 50px;
   background-image: url(../images/background-images/program-pattern.png);
@@ -167,7 +195,7 @@ p.venu {
 }
 
 .program-header h2 {
-  color: #d3d3d3;
+  color: var(--secondary-white);
   text-align: center;
   font-size: 1.6rem;
   font-weight: 400;
@@ -177,7 +205,7 @@ p.venu {
   height: 1px;
   width: 18%;
   margin: 1rem auto;
-  background-color: #ec5242;
+  background-color: var(--main-color);
 }
 
 .program-contents {
@@ -214,14 +242,13 @@ p.venu {
 .program-card p {
   font-size: 1rem;
   flex: 2;
-  color: #d3d3d3;
+  color: var(--secondary-white);
   line-height: 1.6rem;
 }
 
 .join-summit {
   padding: 25px 40px;
-  color: #fff;
-  background-color: #ec5242;
+  color: var(--primary-white);
   font-size: 1.2rem;
 }
 
@@ -246,7 +273,6 @@ p.venu {
 .speaker-header h2 {
   font-size: 1.6rem;
   font-weight: 600;
-  text-align: center;
 }
 
 .speakers {
@@ -284,7 +310,7 @@ p.venu {
 
 .line {
   height: 2px;
-  background-color: #d3d3d3;
+  background-color: var(--secondary-white);
   width: 20%;
 }
 
@@ -305,8 +331,6 @@ p.venu {
 }
 
 .partners {
-  background-color: #272a31;
-  color: #d3d3d3;
   padding: 50px 10px;
 }
 
@@ -360,7 +384,6 @@ footer {
   }
 
   .see-program a {
-    color: #d3d3d3;
     font-size: 1.2rem;
   }
 
@@ -371,7 +394,6 @@ footer {
   .top-nav {
     display: block;
     width: 100%;
-    background: #272a31;
     padding: 10px 150px;
   }
 
@@ -384,7 +406,7 @@ footer {
 
   .top-nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: var(--primary-white);
     font-size: 1rem;
     font-weight: bold;
   }
@@ -394,7 +416,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 8px 10px #d3d3d3;
+    box-shadow: 0 8px 10px var(--secondary-white);
     box-sizing: border-box;
   }
 
@@ -406,14 +428,15 @@ footer {
 
   .main-nav ul li a {
     text-decoration: none;
-    color: #272a31;
+    color: var(--dark-color);
     font-size: 1.1rem;
     font-weight: 400;
     opacity: 0.9;
   }
 
   .main-nav ul li a:hover {
-    color: #ec5242;
+    color: var(--main-color);
+    transition: all 0.2s ease;
   }
 
   .headline-section {
@@ -442,7 +465,7 @@ footer {
   }
 
   .description-container {
-    border: 4px solid #fff;
+    border: 4px solid var(--primary-white);
     padding: 16px 20px;
     background-color: rgba(247, 247, 248, 0.9);
     width: 80%;
@@ -452,14 +475,12 @@ footer {
     font-size: 1rem;
     font-weight: 600;
     line-height: 1.6rem;
-    color: #272a31;
     opacity: 0.9;
   }
 
   p.date {
     font-weight: 900;
     font-size: 2.8rem;
-    color: #272a31;
     opacity: 0.8;
     margin-top: 20px;
   }
@@ -480,8 +501,6 @@ footer {
   }
 
   .program-header h2 {
-    color: #d3d3d3;
-    text-align: center;
     font-size: 2.2rem;
     font-weight: 600;
   }
@@ -490,7 +509,6 @@ footer {
     height: 1px;
     width: 8%;
     margin: 1rem auto;
-    background-color: #ec5242;
   }
 
   .program-contents {
@@ -508,7 +526,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(211, 211, 211, 0.1);
     gap: 10px;
     text-align: center;
   }
@@ -529,7 +546,6 @@ footer {
   .program-card p {
     font-size: 1rem;
     flex: 2;
-    color: #d3d3d3;
     line-height: 1.3rem;
   }
 
@@ -610,8 +626,6 @@ footer {
   }
 
   .partners {
-    background-color: #272a31;
-    color: #d3d3d3;
     padding: 50px 10px;
   }
 

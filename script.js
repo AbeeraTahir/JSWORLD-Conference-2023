@@ -46,7 +46,7 @@ const speakers = {
 };
 
 let speakersSection = `<div class="speaker-header">
-    <h2>Featured Speakers</h2>
+    <h2 class="text-center">Featured Speakers</h2>
     <div class="underline"></div>
     </div>
     <div class="speakers">`;
