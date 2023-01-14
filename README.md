@@ -9,7 +9,7 @@ This repository contains the capstone project created by following the design gu
 - JavaScript
 
 ## Live Demo
-> [Click here for live preview](https://abeeratahir.github.io/Capstone-Project/)
+> [Click here for live preview](https://abeeratahir.github.io/JSWORLD-Conference-2023/)
 
 ## Getting Started
 
