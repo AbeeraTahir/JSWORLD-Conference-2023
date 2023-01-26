@@ -13,7 +13,7 @@ This repository contains the capstone project created by following the design gu
 
 ## Getting Started
 
-> To clone the project select the desired directory in cmd and run: git clone https://github.com/AbeeraTahir/Capstone-Project.git
+> To clone the project select the desired directory in cmd and run: git clone https://github.com/AbeeraTahir/JSWORLD-Conference-2023.git
 
 ### Prerequisites
 
